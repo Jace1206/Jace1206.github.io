@@ -1,0 +1,17 @@
+---
+title: "Jace Keller"
+image: "headshot.jpg"
+about:
+  template: jolla
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/Jace1206
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/jace-keller/
+    - icon: inboxes
+      text: Contact
+      href: mailto:jacekeller11@gmail.com
+---
+
