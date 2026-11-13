@@ -1,5 +1,5 @@
 ---
-title: "Data Visualization over Space Mission Launches"
+title: "Data Visualization on Rocket Launches"
 author:
   - name: Jace Keller
     url: https://jace1206.github.io
