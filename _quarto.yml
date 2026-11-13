@@ -3,7 +3,7 @@ project:
   output-dir: docs
   
 website:
-  title: "quarto blog"
+  title: "Jace Keller"
   
   navbar:
     right:
