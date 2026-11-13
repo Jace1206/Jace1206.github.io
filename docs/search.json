@@ -11,28 +11,28 @@
     "href": "posts/Data Visualization/index.html#does-experience-affect-success-rate",
     "title": "Data Visualization over Space Mission Launches",
     "section": "Does experience affect success rate?",
-    "text": "Does experience affect success rate?\n\n\n\nSuccess rate vs. number of launches by country\n\n\nQuestion: Does a country’s number of space launches affect its success rate?\nMethod: We made a pivot table of launch status by country of origin, then divided successes by total launches to get a success rate. We plotted launches against success rate in a scatter plot.\nFinding: The two variables appear to follow a logarithmic distribution."
+    "text": "Does experience affect success rate?\n\n\n\nSuccess rate vs. number of launches by country\n\n\nQuestion: Does a country’s number of space launches affect its success rate? This is interesting because the news rarely covers smaller companies/countries launching rockets.\nMethod: We made a pivot table of launch status by country of origin, then divided successes by total launches to get a success rate. We plotted launches against success rate in a scatter plot.\nFinding: The two variables appear to follow a logarithmic distribution."
   },
   {
     "objectID": "posts/Data Visualization/index.html#which-countries-launch-the-most",
     "href": "posts/Data Visualization/index.html#which-countries-launch-the-most",
     "title": "Data Visualization over Space Mission Launches",
     "section": "Which countries launch the most?",
-    "text": "Which countries launch the most?\n\n\n\nTotal rocket launches by country (most active launching countries)\n\n\nQuestion: Do certain countries launch more rockets than others?\nMethod: We built a pivot table of total launches per country and charted the most active launching countries in a bar chart.\nFinding: Russia and the USA have a much higher presence in space launches than any other country."
+    "text": "Which countries launch the most?\n\n\n\nTotal rocket launches by country (most active launching countries)\n\n\nQuestion: Do certain countries launch more rockets than others? This is interesting because it shows the scope of just how many rockets are have been launched by each countries.\nMethod: We built a pivot table of total launches per country and charted the most active launching countries in a bar chart.\nFinding: Russia and the USA have a much higher presence in space launches than any other country."
   },
   {
     "objectID": "posts/Data Visualization/index.html#how-have-launches-changed-over-time",
     "href": "posts/Data Visualization/index.html#how-have-launches-changed-over-time",
     "title": "Data Visualization over Space Mission Launches",
     "section": "How have launches changed over time?",
-    "text": "How have launches changed over time?\n\n\n\nNumber of annual space launches by year\n\n\nQuestion: What is the historical distribution of annual space launches?\nMethod: We filtered the data to the relevant columns, used a pivot table to count launches per year, and graphed count vs. year.\nFinding: (add what the graph shows, such as when launches rose or dropped)"
+    "text": "How have launches changed over time?\n\n\n\nNumber of annual space launches by year\n\n\nQuestion: What is the historical distribution of annual space launches? This is interesting because the world’s captivation with space has shifted a lot over time..\nMethod: We filtered the data to the relevant columns, used a pivot table to count launches per year, and graphed count vs. year.\nFinding: There were two major spikes in rocket launches within the past 70 years. One during the space race (60s-70s) and in the laste 2010s."
   },
   {
     "objectID": "posts/Data Visualization/index.html#how-much-do-launches-cost",
     "href": "posts/Data Visualization/index.html#how-much-do-launches-cost",
     "title": "Data Visualization over Space Mission Launches",
     "section": "How much do launches cost?",
-    "text": "How much do launches cost?\n\n\n\nDistribution of rocket launch prices (adjusted to 2025 dollars)\n\n\nQuestion: What is the statistical distribution of rocket launch prices?\nMethod: We adjusted each launch’s cost to 2025 dollars using each year’s CPI, then grouped the launches into price bins and counted them.\nFinding: (add what the histogram shows)\nNote: Many launches had no listed price and were excluded."
+    "text": "How much do launches cost?\n\n\n\nDistribution of rocket launch prices (adjusted to 2025 dollars)\n\n\nQuestion: What is the statistical distribution of rocket launch prices?\nMethod: We adjusted each launch’s cost to 2025 dollars using each year’s CPI, then grouped the launches into price bins and counted them.\nFinding: Nearly all rocket launches cost $7 million to $107 million (in 2025 dollars).\nNote: Many launches had no listed price and were excluded."
   },
   {
     "objectID": "about.html",
@@ -46,6 +46,6 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Data Visualization over Space Mission Launches\n\n\n\n\n\n\nJace Keller, Austin Horton, Carter Flynt, Elliott Boys, Jordan Sheely\n\n\nNov 13, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "Data Visualization over Space Mission Launches\n\n\n\n\n\n\nJace Keller, Austin Horton, Carter Flynt, Elliott Boyd, Jordan Sheely\n\n\nNov 13, 2026\n\n\n\n\n\n\nNo matching items"
   }
 ]

@@ -7,7 +7,7 @@ author:
     url: https://austin-horton.github.io/
   - name: Carter Flynt
     url: https://carterflynt.github.io/
-  - name: Elliott Boys
+  - name: Elliott Boyd
     url: http://elliottboyd.github.io/
   - name: Jordan Sheely
     url: https://jordanlsheely.github.io/jordanlsheely/
@@ -22,7 +22,7 @@ What conclusions can be made from analyzing space mission launches? Our team use
 
 ![Success rate vs. number of launches by country](Slide2.JPG)
 
-**Question:** Does a country's number of space launches affect its success rate?
+**Question:** Does a country's number of space launches affect its success rate? This is interesting because the news rarely covers smaller companies/countries launching rockets.
 
 **Method:** We made a pivot table of launch status by country of origin, then divided successes by total launches to get a success rate. We plotted launches against success rate in a scatter plot.
 
@@ -32,7 +32,7 @@ What conclusions can be made from analyzing space mission launches? Our team use
 
 ![Total rocket launches by country (most active launching countries)](Slide3.JPG)
 
-**Question:** Do certain countries launch more rockets than others?
+**Question:** Do certain countries launch more rockets than others? This is interesting because it shows the scope of just how many rockets are have been launched by each countries.
 
 **Method:** We built a pivot table of total launches per country and charted the most active launching countries in a bar chart.
 
@@ -42,11 +42,11 @@ What conclusions can be made from analyzing space mission launches? Our team use
 
 ![Number of annual space launches by year](Slide4.JPG)
 
-**Question:** What is the historical distribution of annual space launches?
+**Question:** What is the historical distribution of annual space launches? This is interesting because the world's captivation with space has shifted a lot over time..
 
 **Method:** We filtered the data to the relevant columns, used a pivot table to count launches per year, and graphed count vs. year.
 
-**Finding:** *(add what the graph shows, such as when launches rose or dropped)*
+**Finding:** There were two major spikes in rocket launches within the past 70 years. One during the space race (60s-70s) and in the laste 2010s.
 
 ## How much do launches cost?
 
@@ -56,6 +56,6 @@ What conclusions can be made from analyzing space mission launches? Our team use
 
 **Method:** We adjusted each launch's cost to 2025 dollars using each year's CPI, then grouped the launches into price bins and counted them.
 
-**Finding:** *(add what the histogram shows)*
+**Finding:** Nearly all rocket launches cost \$7 million to \$107 million (in 2025 dollars).
 
 **Note:** Many launches had no listed price and were excluded.
