@@ -1,6 +1,16 @@
 ---
 title: "Data Visualization over Space Mission Launches"
-author: "Jace Keller, Austin Horton, Carter Flynt, Elliott Boys, Jordan Sheely"
+author:
+  - name: Jace Keller
+    url: https://jace1206.github.io
+  - name: Austin Horton
+    url: https://austin-horton.github.io/
+  - name: Carter Flynt
+    url: https://carterflynt.github.io/
+  - name: Elliott Boys
+    url: http://elliottboyd.github.io/
+  - name: Jordan Sheely
+    url: https://jordanlsheely.github.io/jordanlsheely/
 date: "2026-11-13"
 categories: [analysis, PowerPoint, presentation, code, design]
 image: "Slide1.JPG"
@@ -8,7 +18,7 @@ image: "Slide1.JPG"
 
 What conclusions can be made from analyzing Space Mission Launches?
 
-![Does a countries number of space launches effect their success rate? To make the scatter plot, we plotted the number of launches a country did compared to the success rate of those launches. This was done by making a pivot table that looked at launch status against the origin. And the success rate divided by total launches. We found that the variables seem to follow a logarithmic distribution.](Slide2.JPG)
+![Success rate vs. number of launches by country](Slide2.JPG){fig-alt="Scatter plot of launch count vs success rate by country"}
 
 ![Do certain countries launch more rockets than others? To create this bar chart, we looked at total rocket launches for the most active launching countries. A pivot table was made comparing each country to their total number of launches. There is a clear skew for Russia and USA indicating they have a much higher presence in space launches.](Slide3.JPG)
 
