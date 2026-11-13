@@ -4,7 +4,6 @@ author: "Jace Keller, Austin Horton, Carter Flynt, Elliott Boys, Jordan Sheely"
 date: "2026-11-13"
 categories: [analysis, PowerPoint, presentation, code, design]
 image: "Slide1.JPG"
-format: html
 ---
 
 What conclusions can be made from analyzing Space Mission Launches?
