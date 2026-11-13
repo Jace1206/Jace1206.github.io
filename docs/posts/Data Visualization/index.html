@@ -176,33 +176,58 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>What conclusions can be made from analyzing Space Mission Launches?</p>
+<p>What conclusions can be made from analyzing space mission launches? Our team used pivot tables and charts to explore launch counts, success rates, history, and cost.</p>
+<section id="does-experience-affect-success-rate" class="level2">
+<h2 class="anchored" data-anchor-id="does-experience-affect-success-rate">Does experience affect success rate?</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="Slide2.JPG" class="img-fluid figure-img" alt="Scatter plot of launch count vs success rate by country"></p>
+<p><img src="Slide2.JPG" class="img-fluid figure-img"></p>
 <figcaption>Success rate vs.&nbsp;number of launches by country</figcaption>
 </figure>
 </div>
+<p><strong>Question:</strong> Does a country’s number of space launches affect its success rate?</p>
+<p><strong>Method:</strong> We made a pivot table of launch status by country of origin, then divided successes by total launches to get a success rate. We plotted launches against success rate in a scatter plot.</p>
+<p><strong>Finding:</strong> The two variables appear to follow a logarithmic distribution.</p>
+</section>
+<section id="which-countries-launch-the-most" class="level2">
+<h2 class="anchored" data-anchor-id="which-countries-launch-the-most">Which countries launch the most?</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="Slide3.JPG" class="img-fluid figure-img"></p>
-<figcaption>Do certain countries launch more rockets than others? To create this bar chart, we looked at total rocket launches for the most active launching countries. A pivot table was made comparing each country to their total number of launches. There is a clear skew for Russia and USA indicating they have a much higher presence in space launches.</figcaption>
+<figcaption>Total rocket launches by country (most active launching countries)</figcaption>
 </figure>
 </div>
+<p><strong>Question:</strong> Do certain countries launch more rockets than others?</p>
+<p><strong>Method:</strong> We built a pivot table of total launches per country and charted the most active launching countries in a bar chart.</p>
+<p><strong>Finding:</strong> Russia and the USA have a much higher presence in space launches than any other country.</p>
+</section>
+<section id="how-have-launches-changed-over-time" class="level2">
+<h2 class="anchored" data-anchor-id="how-have-launches-changed-over-time">How have launches changed over time?</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="Slide4.JPG" class="img-fluid figure-img"></p>
-<figcaption>What is the historical distribution of annual space launches? The distribution was determined by analyzing the count of annual rocket launches. After parsing the data to keep only relevant information, a pivot table was used to organize information. A graph was then made to represent count vs year.</figcaption>
+<figcaption>Number of annual space launches by year</figcaption>
 </figure>
 </div>
+<p><strong>Question:</strong> What is the historical distribution of annual space launches?</p>
+<p><strong>Method:</strong> We filtered the data to the relevant columns, used a pivot table to count launches per year, and graphed count vs.&nbsp;year.</p>
+<p><strong>Finding:</strong> <em>(add what the graph shows, such as when launches rose or dropped)</em></p>
+</section>
+<section id="how-much-do-launches-cost" class="level2">
+<h2 class="anchored" data-anchor-id="how-much-do-launches-cost">How much do launches cost?</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="Slide5.JPG" class="img-fluid figure-img"></p>
-<figcaption>What is the statistical distribution of prices in rocket launches? The distribution was determined by analyzing the adjusted price of each rocket launch. By using the cost in a certain year and the CPI (each years inflation to 2025), the prices were then able to be compared. Then, the count of each rocket launch was combined into bins. Important note: Many rockets did not have a listed price for the launch, so those launches were excluded.</figcaption>
+<figcaption>Distribution of rocket launch prices (adjusted to 2025 dollars)</figcaption>
 </figure>
 </div>
+<p><strong>Question:</strong> What is the statistical distribution of rocket launch prices?</p>
+<p><strong>Method:</strong> We adjusted each launch’s cost to 2025 dollars using each year’s CPI, then grouped the launches into price bins and counted them.</p>
+<p><strong>Finding:</strong> <em>(add what the histogram shows)</em></p>
+<p><strong>Note:</strong> Many launches had no listed price and were excluded.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

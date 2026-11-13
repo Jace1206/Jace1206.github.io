@@ -4,7 +4,35 @@
     "href": "posts/Data Visualization/index.html",
     "title": "Data Visualization over Space Mission Launches",
     "section": "",
-    "text": "What conclusions can be made from analyzing Space Mission Launches?\n\n\n\nSuccess rate vs. number of launches by country\n\n\n\n\n\nDo certain countries launch more rockets than others? To create this bar chart, we looked at total rocket launches for the most active launching countries. A pivot table was made comparing each country to their total number of launches. There is a clear skew for Russia and USA indicating they have a much higher presence in space launches.\n\n\n\n\n\nWhat is the historical distribution of annual space launches? The distribution was determined by analyzing the count of annual rocket launches. After parsing the data to keep only relevant information, a pivot table was used to organize information. A graph was then made to represent count vs year.\n\n\n\n\n\nWhat is the statistical distribution of prices in rocket launches? The distribution was determined by analyzing the adjusted price of each rocket launch. By using the cost in a certain year and the CPI (each years inflation to 2025), the prices were then able to be compared. Then, the count of each rocket launch was combined into bins. Important note: Many rockets did not have a listed price for the launch, so those launches were excluded."
+    "text": "What conclusions can be made from analyzing space mission launches? Our team used pivot tables and charts to explore launch counts, success rates, history, and cost."
+  },
+  {
+    "objectID": "posts/Data Visualization/index.html#does-experience-affect-success-rate",
+    "href": "posts/Data Visualization/index.html#does-experience-affect-success-rate",
+    "title": "Data Visualization over Space Mission Launches",
+    "section": "Does experience affect success rate?",
+    "text": "Does experience affect success rate?\n\n\n\nSuccess rate vs. number of launches by country\n\n\nQuestion: Does a country’s number of space launches affect its success rate?\nMethod: We made a pivot table of launch status by country of origin, then divided successes by total launches to get a success rate. We plotted launches against success rate in a scatter plot.\nFinding: The two variables appear to follow a logarithmic distribution."
+  },
+  {
+    "objectID": "posts/Data Visualization/index.html#which-countries-launch-the-most",
+    "href": "posts/Data Visualization/index.html#which-countries-launch-the-most",
+    "title": "Data Visualization over Space Mission Launches",
+    "section": "Which countries launch the most?",
+    "text": "Which countries launch the most?\n\n\n\nTotal rocket launches by country (most active launching countries)\n\n\nQuestion: Do certain countries launch more rockets than others?\nMethod: We built a pivot table of total launches per country and charted the most active launching countries in a bar chart.\nFinding: Russia and the USA have a much higher presence in space launches than any other country."
+  },
+  {
+    "objectID": "posts/Data Visualization/index.html#how-have-launches-changed-over-time",
+    "href": "posts/Data Visualization/index.html#how-have-launches-changed-over-time",
+    "title": "Data Visualization over Space Mission Launches",
+    "section": "How have launches changed over time?",
+    "text": "How have launches changed over time?\n\n\n\nNumber of annual space launches by year\n\n\nQuestion: What is the historical distribution of annual space launches?\nMethod: We filtered the data to the relevant columns, used a pivot table to count launches per year, and graphed count vs. year.\nFinding: (add what the graph shows, such as when launches rose or dropped)"
+  },
+  {
+    "objectID": "posts/Data Visualization/index.html#how-much-do-launches-cost",
+    "href": "posts/Data Visualization/index.html#how-much-do-launches-cost",
+    "title": "Data Visualization over Space Mission Launches",
+    "section": "How much do launches cost?",
+    "text": "How much do launches cost?\n\n\n\nDistribution of rocket launch prices (adjusted to 2025 dollars)\n\n\nQuestion: What is the statistical distribution of rocket launch prices?\nMethod: We adjusted each launch’s cost to 2025 dollars using each year’s CPI, then grouped the launches into price bins and counted them.\nFinding: (add what the histogram shows)\nNote: Many launches had no listed price and were excluded."
   },
   {
     "objectID": "about.html",

@@ -16,12 +16,46 @@ categories: [analysis, PowerPoint, presentation, code, design]
 image: "Slide1.JPG"
 ---
 
-What conclusions can be made from analyzing Space Mission Launches?
+What conclusions can be made from analyzing space mission launches? Our team used pivot tables and charts to explore launch counts, success rates, history, and cost.
 
-![Success rate vs. number of launches by country](Slide2.JPG){fig-alt="Scatter plot of launch count vs success rate by country"}
+## Does experience affect success rate?
 
-![Do certain countries launch more rockets than others? To create this bar chart, we looked at total rocket launches for the most active launching countries. A pivot table was made comparing each country to their total number of launches. There is a clear skew for Russia and USA indicating they have a much higher presence in space launches.](Slide3.JPG)
+![Success rate vs. number of launches by country](Slide2.JPG)
 
-![What is the historical distribution of annual space launches? The distribution was determined by analyzing the count of annual rocket launches. After parsing the data to keep only relevant information, a pivot table was used to organize information. A graph was then made to represent count vs year.](Slide4.JPG)
+**Question:** Does a country's number of space launches affect its success rate?
 
-![What is the statistical distribution of prices in rocket launches? The distribution was determined by analyzing the adjusted price of each rocket launch. By using the cost in a certain year and the CPI (each years inflation to 2025), the prices were then able to be compared. Then, the count of each rocket launch was combined into bins. Important note: Many rockets did not have a listed price for the launch, so those launches were excluded.](Slide5.JPG)
+**Method:** We made a pivot table of launch status by country of origin, then divided successes by total launches to get a success rate. We plotted launches against success rate in a scatter plot.
+
+**Finding:** The two variables appear to follow a logarithmic distribution.
+
+## Which countries launch the most?
+
+![Total rocket launches by country (most active launching countries)](Slide3.JPG)
+
+**Question:** Do certain countries launch more rockets than others?
+
+**Method:** We built a pivot table of total launches per country and charted the most active launching countries in a bar chart.
+
+**Finding:** Russia and the USA have a much higher presence in space launches than any other country.
+
+## How have launches changed over time?
+
+![Number of annual space launches by year](Slide4.JPG)
+
+**Question:** What is the historical distribution of annual space launches?
+
+**Method:** We filtered the data to the relevant columns, used a pivot table to count launches per year, and graphed count vs. year.
+
+**Finding:** *(add what the graph shows, such as when launches rose or dropped)*
+
+## How much do launches cost?
+
+![Distribution of rocket launch prices (adjusted to 2025 dollars)](Slide5.JPG)
+
+**Question:** What is the statistical distribution of rocket launch prices?
+
+**Method:** We adjusted each launch's cost to 2025 dollars using each year's CPI, then grouped the launches into price bins and counted them.
+
+**Finding:** *(add what the histogram shows)*
+
+**Note:** Many launches had no listed price and were excluded.
